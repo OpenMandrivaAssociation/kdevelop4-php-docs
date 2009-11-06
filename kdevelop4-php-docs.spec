@@ -14,8 +14,7 @@ BuildRequires: kdevplatform4-devel
 Requires: kdevelop4-php
 
 %description
-This plugin adds PHP language support (including classview and code-completion)
-to KDevelop.
+This plugin adds PHP documentation-view to KDevelop.
 
 %files
 %defattr(-,root,root)
