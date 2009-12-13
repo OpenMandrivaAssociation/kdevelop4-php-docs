@@ -1,10 +1,10 @@
-%define betaver beta1
+%define betaver beta2
 
 Summary: PHP documentation plugin for kdevelop
 Name: kdevelop4-php-docs
 Version: 0
 Release: %mkrel -c %betaver 1
-Source0: http://fr2.rpmfind.net/linux/KDE/unstable/kdevelop/3.9.96/src/kdevelop-php-docs-%{betaver}.tar.bz2
+Source0: http://fr2.rpmfind.net/linux/KDE/unstable/kdevelop/3.9.96/src/kdevelop-phpdocs-%{betaver}.tar.bz2
 License: GPLv2+
 Group: Development/Other
 Url: http://www.kdevelop.org
