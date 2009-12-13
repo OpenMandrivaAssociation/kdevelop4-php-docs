@@ -27,7 +27,7 @@ This plugin adds PHP documentation-view to KDevelop.
 #--------------------------------------------------------------------
 
 %prep
-%setup -qn kdevelop-php-docs-%{betaver}
+%setup -qn kdevelop-phpdocs-%{betaver}
 
 %build
 %cmake_kde4
