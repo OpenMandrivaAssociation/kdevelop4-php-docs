@@ -1,17 +1,15 @@
-%define betaver rc1
-
 Summary: PHP documentation plugin for kdevelop
 Name: kdevelop4-php-docs
-Version: 0
-Release: %mkrel -c %betaver 1
-Source0: http://fr2.rpmfind.net/linux/KDE/unstable/kdevelop/3.10.0/src/kdev-php-docs-%{betaver}.tar.bz2
+Version: 1.0.0
+Release: %mkrel 1
+Source0: http://fr2.rpmfind.net/linux/KDE/stable/kdevelop/4.0.0/src/kdevelop-php-docs-%{version}.tar.bz2
 License: GPLv2+
 Group: Development/Other
 Url: http://www.kdevelop.org
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: kdelibs4-devel
-BuildRequires: kdevplatform4-devel
-Requires: kdevelop4-php
+BuildRequires: kdevplatform4-devel >= 4:0.10.2
+Requires: kdevelop4-php >= 1.0.0
 
 %description
 This plugin adds PHP documentation-view to KDevelop.
@@ -27,7 +25,7 @@ This plugin adds PHP documentation-view to KDevelop.
 #--------------------------------------------------------------------
 
 %prep
-%setup -qn kdev-php-docs-%{betaver}
+%setup -qn kdevelop-php-docs-%{version}
 
 %build
 %cmake_kde4
