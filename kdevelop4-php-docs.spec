@@ -1,7 +1,7 @@
 Summary: PHP documentation plugin for kdevelop
 Name: kdevelop4-php-docs
-Version: 1.0.0
-Release: %mkrel 2
+Version: 1.0.1
+Release: %mkrel 1
 Source0: http://fr2.rpmfind.net/linux/KDE/stable/kdevelop/4.0.0/src/kdevelop-php-docs-%{version}.tar.bz2
 License: GPLv2+
 Group: Development/Other
@@ -14,7 +14,7 @@ Requires: kdevelop4-php >= 1.0.0
 %description
 This plugin adds PHP documentation-view to KDevelop.
 
-%files
+%files -f kdevphpdocs.lang
 %defattr(-,root,root)
 %_kde_libdir/kde4/kdevphpdocs.so
 %_kde_libdir/kde4/kdevphpdocs_config.so
@@ -34,6 +34,8 @@ This plugin adds PHP documentation-view to KDevelop.
 %install
 rm -rf %{buildroot}
 %{makeinstall_std} -C build
+
+%find_lang kdevphpdocs
 
 %clean
 rm -rf %{buildroot}
