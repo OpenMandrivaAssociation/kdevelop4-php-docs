@@ -1,8 +1,8 @@
 Summary: PHP documentation plugin for kdevelop
 Name: kdevelop4-php-docs
-Version: 1.2.0
-Release: %mkrel 2
-Source0: http://fr2.rpmfind.net/linux/KDE/stable/kdevelop/4.2.0/src/kdevelop-php-docs-%{version}.tar.bz2
+Version: 1.2.1
+Release: %mkrel 1
+Source0: http://fr2.rpmfind.net/linux/KDE/stable/kdevelop/4.2.1/src/kdevelop-php-docs-%{version}.tar.bz2
 License: GPLv2+
 Group: Development/Other
 Url: http://www.kdevelop.org
