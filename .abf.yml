@@ -1,3 +1,4 @@
----
-sources:
+removed_sources:
   kdevelop-php-docs-1.4.1.tar.bz2: 3a1b20c4527abf489df20a23177dd9befc2e1d3c
+sources:
+  kdevelop-php-docs-1.6.0.tar.xz: 98d7efe6f983c4b439c6cbdc40d427e14954298f
