@@ -2,8 +2,8 @@
 
 Summary:	PHP documentation plugin for kdevelop
 Name:		kdevelop4-php-docs
-Version:	1.6.0
-Release:	4
+Version:	1.7.1
+Release:	1
 License:	GPLv2+
 Group:		Development/Other
 Url:		http://www.kdevelop.org
