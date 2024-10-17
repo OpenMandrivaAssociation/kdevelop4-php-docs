@@ -6,7 +6,7 @@ Version:	1.7.1
 Release:	4
 License:	GPLv2+
 Group:		Development/Other
-Url:		http://www.kdevelop.org
+Url:		https://www.kdevelop.org
 Source0:	http://fr2.rpmfind.net/linux/KDE/stable/kdevelop/%{kdevelop_ver}/src/kdevelop-php-docs-%{version}.tar.xz
 BuildRequires:	kdelibs4-devel
 BuildRequires:	kdevplatform4-devel >= 4:%{version}
