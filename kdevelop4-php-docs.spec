@@ -8,6 +8,7 @@ License:	GPLv2+
 Group:		Development/Other
 Url:		https://www.kdevelop.org
 Source0:	http://fr2.rpmfind.net/linux/KDE/stable/kdevelop/%{kdevelop_ver}/src/kdevelop-php-docs-%{version}.tar.xz
+BuildRequires:	make
 BuildRequires:	kdelibs4-devel
 BuildRequires:	kdevplatform4-devel >= 4:%{version}
 Requires:	kdevelop4-php >= %{version}
